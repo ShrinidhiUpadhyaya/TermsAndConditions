@@ -9,7 +9,7 @@ To include Settings inside your Qt project you need to include two things:-
 
 ,,,
 
-    QCoreApplication::setApplicationName("LicenseAgreement");
+    QCoreApplication::setApplicationName("TermsAndConditions");
     QCoreApplication::setOrganizationName("OpenSource");
     
 ,,,
