@@ -6,8 +6,13 @@ So **Settings** basically allows you to save and restore the application setting
 
 To include Settings inside your Qt project you need to include two things:-
 * The Application Name and the Organisation Name.
+
+,,,
+
     QCoreApplication::setApplicationName("LicenseAgreement");
     QCoreApplication::setOrganizationName("OpenSource");
+    
+,,,
     
     **Note:-** If you dont include this you will not be able to initilize settings and you will get some errors like this
     * QML Settings: Failed to initialize QSettings instance. Status code is: 1
