@@ -39,20 +39,21 @@ To include Settings inside your Qt project you need to include two things:-
 '''
  
 * Next place the content you need in the Content.txt file. I have placed some random content from [here](https://en.wikipedia.org/wiki/Qt_(software))
-* When you launch the app for the first time you will this screen!
+* When you launch the app for the first time you will see this screen.
 <p align="center">
     <img src="https://user-images.githubusercontent.com/8769408/118407906-82c67980-b6a0-11eb-882d-a158e3cca632.jpg" width="200" height="400"/>
 </p>
 
-* Once you read the complete Terms and Conditions, the 'I accept' checkbox will be enabled
+* Once you read the complete Terms and Conditions, the 'I accept' checkbox will be enabled.
 <p align="center">
     <img src="https://user-images.githubusercontent.com/8769408/118408048-50694c00-b6a1-11eb-9a2d-7ea70c71f276.jpg" width="200" height="400"/>
 </p>
 
-* You need to check the checkbox after which the "Agree" button will be enabled!
+* You need to check the checkbox after which the "Agree" button will be enabled.
 <p align="center">
     <img src="https://user-images.githubusercontent.com/8769408/118408115-9faf7c80-b6a1-11eb-97cb-f6c129a5a754.jpg" width="200" height="400"/>
 </p>
+
 * Once you click the agree button you will be taken to the main app screen.
 
 So when you click the agree button we make "termsAndConditionsAgreed" as true. So from the next time whenever you open the app you will directly go into the main app screen.
@@ -69,4 +70,4 @@ So when you click the agree button we make "termsAndConditionsAgreed" as true. S
     <img src="https://user-images.githubusercontent.com/8769408/118408119-a3db9a00-b6a1-11eb-89ca-547125d1eac5.jpg" width="200" height="400"/>
 </p>
     
-**Note:-** You can go to Settings->Apps->TermsAndConditions->ClearData and clear all the data including apps and once again the when you open the app it will show you the Terms And Conditions Screen.
+**Note:-** You can go to Settings->Apps->TermsAndConditions->ClearData and clear all the data and when you open the app next time it will show you the Terms And Conditions Screen.
