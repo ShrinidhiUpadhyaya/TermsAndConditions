@@ -14,9 +14,14 @@ To include Settings inside your Qt project you need to include two things:-
     
 ,,,
     
-    **Note:-** If you dont include this you will not be able to initilize settings and you will get some errors like this
-    * QML Settings: Failed to initialize QSettings instance. Status code is: 1
-    * QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+**Note:-** If you dont include this you will not be able to initilize settings and you will get some errors like this
+
+'''
+
+     QML Settings: Failed to initialize QSettings instance. Status code is: 1
+     QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+    
+'''
 
 * You need to import this **import Qt.labs.settings 1.1** in your QML file.
 
